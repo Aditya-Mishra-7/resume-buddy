@@ -1,0 +1,25 @@
+# Dependencies
+
+node_modules/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Local databases
+
+backend/data/*.sqlite
+backend/data/*.db
+
+# Build files
+
+frontend/dist/
+dist/
+build/
+
+# Testing and logs
+
+coverage/
+*.log
